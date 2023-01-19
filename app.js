@@ -21,6 +21,5 @@ console.log(names);
 const sayHi = (name) => {
   console.log(`Hello there ${name}`);
 };
-sayHi("Yash");
-sayHi(names[0]);
-sayHi(names[1]);
+sayHi(names.randomPerson1);
+sayHi(names.randomPerson2);
